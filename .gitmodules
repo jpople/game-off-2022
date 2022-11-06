@@ -1,3 +1,6 @@
 [submodule "Packages/Toolbox"]
 	path = Packages/Toolbox
 	url = https://github.com/Cawotte/Cawotte-Toolbox
+[submodule "Assets/Plugins/SOArchitecture"]
+	path = Assets/Plugins/SOArchitecture
+	url = https://github.com/Cawotte/ScriptableObject-Architecture.git
