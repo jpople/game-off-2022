@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.cawotte.toolbox": {
+      "version": "file:Toolbox",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "8.0.3",
       "depth": 1,
