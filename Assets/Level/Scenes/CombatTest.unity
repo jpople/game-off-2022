@@ -314,11 +314,16 @@ PrefabInstance:
       propertyPath: debugText
       value: 
       objectReference: {fileID: 129071469}
+    - target: {fileID: 1847944979626727044, guid: d3826bc4389083f47b96e4653c13543a, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1406146599}
     - target: {fileID: 1847944979626727046, guid: d3826bc4389083f47b96e4653c13543a, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1926147374899122740, guid: d3826bc4389083f47b96e4653c13543a, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d3826bc4389083f47b96e4653c13543a, type: 3}
 --- !u!1 &534970686
@@ -520,6 +525,7 @@ GameObject:
   - component: {fileID: 1001428199}
   - component: {fileID: 1001428198}
   - component: {fileID: 1001428202}
+  - component: {fileID: 1001428203}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -649,6 +655,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.47587228, y: 0.8949683}
   m_EdgeRadius: 0
+--- !u!50 &1001428203
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001428197}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1001549857
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +753,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001549857}
   m_CullTransparentMesh: 1
+--- !u!1 &1406146599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816940995876298242, guid: d3826bc4389083f47b96e4653c13543a, type: 3}
+  m_PrefabInstance: {fileID: 507097536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1574804786
 GameObject:
   m_ObjectHideFlags: 0
