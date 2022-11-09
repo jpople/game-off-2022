@@ -87,10 +87,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1847944979626727040}
   - component: {fileID: 1847944979626727043}
-  - component: {fileID: 1847944979626727042}
   - component: {fileID: 1847944979626727044}
   - component: {fileID: 1847944979626727047}
   - component: {fileID: 1847944979626727041}
+  - component: {fileID: 7019597}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -113,7 +113,7 @@ Transform:
   - {fileID: 1847944980048976692}
   - {fileID: 855447963618033980}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1847944979626727043
 SpriteRenderer:
@@ -167,18 +167,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1847944979626727042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847944979626727046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2319c1658bb951448a8e9cf25afb94e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1847944979626727044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   currentHP: 0
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 8816940995876298242}
   attackRadius: {fileID: 1847944980048976690}
   debugText: {fileID: 0}
 --- !u!61 &1847944979626727047
@@ -242,6 +230,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7019597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847944979626727046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa55c30a5b5158640940ce8e1b75770f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 11400000, guid: 5fdfd8b7a7a725344b98a282c1da25d8, type: 2}
+  teleportToFirstNode: 0
+  speed: 2
+  pauseBetweenNodes: 0
 --- !u!1 &1847944980048976695
 GameObject:
   m_ObjectHideFlags: 0
