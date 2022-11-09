@@ -1,11 +1,12 @@
 {
   "dependencies": {
-    "com.danieleverland.scriptableobjectarchitecture": {
-      "version": "https://github.com/DanielEverland/ScriptableObject-Architecture.git#release/stable",
+    "com.cawotte.toolbox": {
+      "version": "file:Toolbox",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "5dc57a5954a1c876e135d404296601828e3866d6"
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0"
+      }
     },
     "com.unity.2d.animation": {
       "version": "8.0.3",
