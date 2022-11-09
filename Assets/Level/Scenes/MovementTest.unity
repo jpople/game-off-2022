@@ -142,7 +142,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: {fileID: 11400000, guid: 5fdfd8b7a7a725344b98a282c1da25d8, type: 2}
   teleportToFirstNode: 0
-  loopPath: 1
   speed: 1.3
   pauseBetweenNodes: 0
 --- !u!1 &71545292
@@ -652,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3905502631784177152, guid: aeee5a32f4fafb041a241c6cbb18c29e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.89
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 3905502632025886273, guid: aeee5a32f4fafb041a241c6cbb18c29e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -664,7 +663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3905502632884179355, guid: aeee5a32f4fafb041a241c6cbb18c29e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.68
+      value: 3.72
       objectReference: {fileID: 0}
     - target: {fileID: 3905502633454053584, guid: aeee5a32f4fafb041a241c6cbb18c29e, type: 3}
       propertyPath: m_RootOrder
